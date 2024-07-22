@@ -1,0 +1,29 @@
+{
+  "name": "@changeset-bot/changelog",
+  "version": "0.0.1",
+  "description": "Changelog entry generator for changesets",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsup src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/changeset-bot/changelog.git"
+  },
+  "author": "darthmaim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/changeset-bot/changelog/issues"
+  },
+  "homepage": "https://github.com/changeset-bot/changelog#readme",
+  "devDependencies": {
+    "@changesets/cli": "2.27.7",
+    "@changesets/types": "6.0.0",
+    "tsup": "8.2.2",
+    "typescript": "5.5.3"
+  },
+  "dependencies": {
+    "@changesets/get-github-info": "0.6.0"
+  }
+}
