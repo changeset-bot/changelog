@@ -68,6 +68,8 @@ jobs:
           git config --global user.email "176291722+changeset-bot-release-bot[bot]@users.noreply.github.com"
           git config --global user.name "changeset-bot-release-bot[bot]"
 
+      - run: npm run build
+
       - name: Create Release Pull Request
         uses: changesets/action@v1
         env:
