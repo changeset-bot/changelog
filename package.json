@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsup src/index.ts",
+    "release": "npm run build && changeset publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
