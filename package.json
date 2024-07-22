@@ -1,6 +1,6 @@
 {
   "name": "@changeset-bot/changelog",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Changelog entry generator for changesets",
   "main": "dist/index.js",
   "scripts": {

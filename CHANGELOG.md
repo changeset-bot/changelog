@@ -1,5 +1,11 @@
 # @changeset-bot/changelog
 
+## 0.0.4
+
+### Patch Changes
+
+- Remove yet another unnecessary new line ([`48fd0b6`](https://github.com/changeset-bot/changelog/commit/48fd0b687052a785e2641133c7565960d1c3a6e8) by [@darthmaim](https://github.com/darthmaim))
+
 ## 0.0.3
 
 ### Patch Changes
