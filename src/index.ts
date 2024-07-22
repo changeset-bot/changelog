@@ -87,8 +87,6 @@ export default {
       users && `by ${users}`,
     ].filter(Boolean).join(" ");
 
-    return `- ${firstLine}${info ? ` (${info})` : ''}\n${otherLines
-      .map((l) => `  ${l}`)
-      .join("\n")}`;
+    return `- ${firstLine}${info ? ` (${info})` : ''}${otherLines.map((l) => `\n  ${l}`).join('')}`;
   }
 } satisfies ChangelogFunctions;
