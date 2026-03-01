@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/changeset-bot/changelog#readme",
   "devDependencies": {
-    "@changesets/cli": "2.27.7",
+    "@changesets/cli": "2.29.8",
     "@changesets/types": "6.0.0",
     "tsup": "8.2.2",
     "typescript": "5.5.3"
